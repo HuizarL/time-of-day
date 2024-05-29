@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  transition: background-color 0.5s;
+}
+#content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+#timeImage {
+  width: 500px;
+  height: auto;
+}
+/* Define style for different times of day */
+.morning {
+  background-color: rgb(255, 254, 202);
+}
+.afternoon {
+  background-color: rgb(179, 95, 0);
+}
+.evening {
+  background-color: rgb(76, 108, 121);
+}
+.night {
+  background-color: rgb(6, 45, 80);
+}
